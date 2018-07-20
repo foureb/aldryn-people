@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 from django.conf import settings
 
-from parler.utils.context import switch_languag
+from parler.utils.context import switch_language
 from aldryn_search.utils import get_index_base, strip_tags
 
 from .models import Person
